@@ -37,7 +37,6 @@ import java.util.Stack;
 public class Reverse_Polish_Notation_Simplified {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "11+22-5*(5-4)*6-(6-1)";
 		Stack<String> stack = expression(str);
 		System.out.println(stack.toString());

@@ -3,7 +3,6 @@ package com.isaac.otherAlgorithms;
 public class LongestCommonSubstring {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str1 = "abcdefghijk";
 		String str2 = "bBcdefgh";
 		System.out.println(longest2(str1, str2));

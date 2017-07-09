@@ -1,9 +1,10 @@
 package com.isaac.otherAlgorithms;
 
+import com.isaac.nodes.TreeNode;
+
 public class IsSubTreeOfATree {
 	// 判断一个二叉树是不是另一个二叉树的子结构
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

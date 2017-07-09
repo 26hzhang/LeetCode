@@ -3,7 +3,6 @@ package com.isaac.otherAlgorithms;
 public class LongestCommonSubstringII {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str1 = "ABCDA";
 		String str2 = "ACBDEA";
 		int max = LCS(str1, str2);

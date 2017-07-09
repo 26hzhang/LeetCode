@@ -8,7 +8,6 @@ public class Minimal_Sub_String {
 	// 有一串首尾相连的珠子,共有m个,每一个珠子有一种颜色,并且颜色的总数不超过n(n<=10)
 	// 求连续的珠子的颜色总数为n时，长度最小的区间。
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

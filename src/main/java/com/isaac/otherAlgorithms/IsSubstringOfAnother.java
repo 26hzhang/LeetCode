@@ -3,7 +3,6 @@ package com.isaac.otherAlgorithms;
 public class IsSubstringOfAnother {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str1 = "abcdabcdabcdaaa";
 		String str2 = "abcdabcdaaa";
 		//System.out.println(str1.contains(str2));

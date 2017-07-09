@@ -6,7 +6,6 @@ import java.util.Queue;
 public class RightPointerForEachNode {
 	// it is a test of BitTitan, similar to populate next right pointers in each node
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

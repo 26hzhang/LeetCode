@@ -64,7 +64,6 @@ public class Game_WorksApp_Test {
 	private static int max = 0;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[][] grid = { { -1, 4, 5, 1 }, { 2, -1, 2, 4 }, { 3, 3, -1, -1 }, { 4, 2, 1, 2 } };
 		int row = grid.length;
 		int column = grid[0].length;

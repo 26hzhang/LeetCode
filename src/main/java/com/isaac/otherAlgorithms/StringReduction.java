@@ -3,7 +3,6 @@ package com.isaac.otherAlgorithms;
 public class StringReduction {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "caccccccc";
 		String str1 = "ca";
 		System.out.println(str.contains(str1));

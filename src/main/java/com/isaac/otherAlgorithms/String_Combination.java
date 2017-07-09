@@ -19,7 +19,6 @@ import java.util.List;
 public class String_Combination {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "abc";
 		List<List<Character>> list = combination(str);
 		for (List<Character> l : list) {

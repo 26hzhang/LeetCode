@@ -1,8 +1,9 @@
 package com.isaac.otherAlgorithms;
 
+import com.isaac.nodes.TreeNode;
+
 public class BSTMirroring {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -5,7 +5,6 @@ import java.util.Stack;
 public class StackPopOrder {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] pushArr = { 1, 2, 3, 4, 5 };
 		int[] popArr1 = { 4, 5, 3, 2, 1 };
 		int[] popArr2 = { 4, 3, 5, 1, 2 };

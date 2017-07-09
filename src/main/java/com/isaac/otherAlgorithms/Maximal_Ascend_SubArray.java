@@ -11,7 +11,6 @@ import java.util.List;
  */
 public class Maximal_Ascend_SubArray {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = { 1, -1, 2, -3, 4, -5, -20, 6, -7, 8, 9, 10, -11, 9, 13, -19, 18, -17, -16, -15, 14, -13, -12, -11, -10, -9, -8, -7 };
 		//int[] arr1 = {1, -1, 2, -3, 4, -5, -20, 6, -7};
 		maxAscend1(arr, arr.length);

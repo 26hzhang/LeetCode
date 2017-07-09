@@ -16,8 +16,7 @@ public class Game_WorksApp_Text_Another_Method {
 	private static int[] cy = { 0, 1, 0 };
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		String fileName = "files/SnakeGameData2.txt";
+		String fileName = "src/main/resources/SnakeGameData2.txt";
 		try {
 			loadData(fileName);
 		} catch (Exception e) {

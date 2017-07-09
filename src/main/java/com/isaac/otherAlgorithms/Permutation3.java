@@ -7,7 +7,6 @@ import java.util.List;
 public class Permutation3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "ALGO";
 		int k = 2;
 		List<String> list = permute(str, k);

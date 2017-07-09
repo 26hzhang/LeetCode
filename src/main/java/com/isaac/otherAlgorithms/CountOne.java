@@ -3,7 +3,6 @@ package com.isaac.otherAlgorithms;
 public class CountOne {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 111;
 		System.out.println(count(n));
 	}

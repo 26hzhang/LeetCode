@@ -7,7 +7,6 @@ import java.util.List;
 public class Combination3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 9;
 		int m = 7;
 		List<List<Integer>> list = combine(n, m);

@@ -19,7 +19,6 @@ import java.util.List;
 public class Combination_Sum_Modified {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 10;
 		int m = 20;
 		List<List<Integer>> list = combination(n, m);

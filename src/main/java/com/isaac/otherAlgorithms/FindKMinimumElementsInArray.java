@@ -5,7 +5,6 @@ import java.util.Arrays;
 public class FindKMinimumElementsInArray {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = { 1, -2, 3, 10, -4, 7, 2, -5 };
 		int k = 4;
 		int[] ans = findKMinimum2(arr, k);

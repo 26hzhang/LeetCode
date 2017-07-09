@@ -8,7 +8,6 @@ import java.util.Set;
 public class TheFirstAppearOnceCharacter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "abcdaacbgdgrrrcftfvt";
 		System.out.println(fstAppearOnce(str));
 	}

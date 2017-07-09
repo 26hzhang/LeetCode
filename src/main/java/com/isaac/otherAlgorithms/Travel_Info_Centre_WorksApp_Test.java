@@ -1,10 +1,6 @@
 package com.isaac.otherAlgorithms;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 
 public class Travel_Info_Centre_WorksApp_Test {
 	//private static int cityNum;
@@ -13,8 +9,7 @@ public class Travel_Info_Centre_WorksApp_Test {
 	private static int[][] inquiries;
 
 	public static void main(String[] args) throws IOException {
-		// TODO Auto-generated method stub
-		BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(new File("TravelInfoData.txt"))));
+		BufferedReader br = new BufferedReader(new FileReader("src/main/resources/TravelInfoData.txt"));
 		/*Scanner in = new Scanner(System.in);
 		cityNum = in.nextInt();
 		inquiryNum = in.nextInt();

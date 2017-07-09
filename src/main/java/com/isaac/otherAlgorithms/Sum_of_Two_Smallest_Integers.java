@@ -9,7 +9,6 @@ public class Sum_of_Two_Smallest_Integers {
 	// an integer array. For example, for the array [34, 7, 63, 15, 42, 11, 91],
 	// the result is 7 + 11 = 18
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 34, 7, 63, 15, 42, 16, 91 };
 		System.out.println(CalculateSumOfTwoSmallestIntegers(nums));
 	}

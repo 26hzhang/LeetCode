@@ -8,7 +8,6 @@ import java.util.Map;
 public class DifferentWaysToAddPatentess {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String input = "2*3-4*5";
 		//String input = "2-1-1";
 		List<Integer> list = diffWaysToCompute2(input, new HashMap<String, List<Integer>>());
@@ -16,7 +15,7 @@ public class DifferentWaysToAddPatentess {
 	}
 
 	public static List<Integer> diffWaysToCompute(String input) {
-		List<Integer> list = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<>();
 		if (input == null || input.isEmpty())
 			return list;
 		for (int i = 0; i < input.length(); i++) {
@@ -46,7 +45,7 @@ public class DifferentWaysToAddPatentess {
 	}
 
 	public static List<Integer> diffWaysToCompute2(String input, Map<String, List<Integer>> memo) {
-		List<Integer> list = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<>();
 		if (input == null || input.isEmpty())
 			return list;
 		if (memo.containsKey(input))

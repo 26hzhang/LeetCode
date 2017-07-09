@@ -6,7 +6,6 @@ import java.util.List;
 public class Combination2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s = "ABC";
 		List<List<Character>> list = combine(s);
 		for (List<Character> l : list) {

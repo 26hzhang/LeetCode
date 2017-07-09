@@ -9,7 +9,6 @@ public class Maximal_Sum_of_SubArray {
 	// 数组中连续的一个或多个整数组成一个子数组，每个子数组都有一个和。
 	// 求所有子数组的和的最大值，以及子数组的起始点和终止点。要求时间复杂度为 O(n)。
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] arr = { 1, -2, 3, 10, -4, 7, 2, -5 };
 		int[] ans = maxSum(arr);
 		System.out.println(ans[0]);

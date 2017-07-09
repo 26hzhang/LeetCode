@@ -13,7 +13,6 @@ public class Compound_Mode_of_Parentheses {
 	public static Stack<Character> stack = new Stack<Character>();
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println(compoundMode(0, 0, 8, 8));
 	}
 
