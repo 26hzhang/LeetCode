@@ -27,7 +27,6 @@ import java.util.Arrays;
 public class LeetCode_242_Valid_Anagram {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

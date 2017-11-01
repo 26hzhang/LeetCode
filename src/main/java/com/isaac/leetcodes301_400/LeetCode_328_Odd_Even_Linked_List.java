@@ -11,7 +11,6 @@ public class LeetCode_328_Odd_Even_Linked_List {
 	// Given 1->2->3->4->5->NULL,
 	// return 1->3->5->2->4->NULL.
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

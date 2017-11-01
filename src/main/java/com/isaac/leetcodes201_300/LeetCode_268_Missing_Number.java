@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class LeetCode_268_Missing_Number {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 2, 1 };
 		System.out.println(missingNumber(nums));
 	}

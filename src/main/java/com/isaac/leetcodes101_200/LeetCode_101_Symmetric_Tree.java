@@ -7,7 +7,6 @@ import java.util.Queue;
 
 public class LeetCode_101_Symmetric_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

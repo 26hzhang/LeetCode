@@ -12,7 +12,6 @@ import java.util.List;
  * [1,2,3], [1,3,2], [2,1,3], [2,3,1], [3,1,2], and [3,2,1].
  *
  * @author: ZHANG HAO
- * @Email: isaac.changhau@gmail.com
  *
  *         Explain: 此题给定的Array每个元素均不同，对于字符串的排列组合问题，均可以利用backtrack的思想求解。
  *         如题目中例子给出的[1,2,3]，其所有排列组合结果如下：
@@ -25,7 +24,6 @@ import java.util.List;
 public class LeetCode_046_Permutations {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] num = { 1, 2, 3 };
 		List<List<Integer>> list = permute(num);
 		for (List<Integer> l : list) {
@@ -34,17 +32,17 @@ public class LeetCode_046_Permutations {
 	}
 
 	public static List<List<Integer>> permute(int[] nums) {
-		List<List<Integer>> listList = new ArrayList<List<Integer>>();
+		List<List<Integer>> listList = new ArrayList<>();
 		if (nums == null || nums.length == 0)
 			return listList;
-		recursion(listList, new ArrayList<Integer>(), nums);
+		recursion(listList, new ArrayList<>(), nums);
 		return listList;
 	}
 
 	// recursion
 	public static void recursion(List<List<Integer>> listList, List<Integer> list, int[] nums) {
 		if (nums.length == list.size()) {
-			listList.add(new ArrayList<Integer>(list));
+			listList.add(new ArrayList<>(list));
 			return;
 		}
 		for (int n : nums) {

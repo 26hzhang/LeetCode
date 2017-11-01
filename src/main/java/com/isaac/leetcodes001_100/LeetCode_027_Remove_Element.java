@@ -27,7 +27,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_027_Remove_Element {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

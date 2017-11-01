@@ -22,13 +22,14 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_026_Remove_Duplicates_from_Sorted_Array {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
 	public static int removeDuplicates(int[] nums) {
-		if (nums == null || nums.length == 1)
+		if (nums == null || nums.length == 1) {
+			assert nums != null;
 			return nums.length;
+		}
 		int n = 0;
 		for (int i = 1; i < nums.length; i++) {
 			if (nums[n] != nums[i])

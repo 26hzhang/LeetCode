@@ -8,7 +8,6 @@ package com.isaac.leetcodes001_100;
  * Tags: Math, String.
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: 罗马数字中M=1000，D=500，C=100，L=50，X=10，V=5，I=1。
  *        特殊情况就是e.g.：IX表示9，IV表示4。temp<value用来排除这种特殊情况。
@@ -16,7 +15,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_013_Roman_to_Integer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -20,7 +20,6 @@ import java.util.List;
  * ]
  *
  * @author ZHANG HAO
- * @Email: isaac.changhau@gmail.com
  *
  *         Explain: backtracking
  *
@@ -28,7 +27,6 @@ import java.util.List;
 public class LeetCode_077_Combination {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 4;
 		int k = 2;
 		List<List<Integer>> list = combine(n, k);
@@ -37,17 +35,17 @@ public class LeetCode_077_Combination {
 		}
 	}
 
-	public static List<List<Integer>> combine(int n, int k) {
-		List<List<Integer>> list = new ArrayList<List<Integer>>();
+	private static List<List<Integer>> combine(int n, int k) {
+		List<List<Integer>> list = new ArrayList<>();
 		if (n < k || k <= 0)
 			return list;
-		recursion(list, n, k, 1, new ArrayList<Integer>());
+		recursion(list, n, k, 1, new ArrayList<>());
 		return list;
 	}
 
 	public static void recursion(List<List<Integer>> list, int n, int k, int start, List<Integer> l) {
 		if (l.size() == k) {
-			list.add(new ArrayList<Integer>(l));
+			list.add(new ArrayList<>(l));
 			return;
 		}
 		for (int i = start; i <= n; i++) {

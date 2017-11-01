@@ -15,7 +15,6 @@ import java.util.Set;
  * [1,1,2], [1,2,1], and [2,1,1].
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: Similar to LeetCode 46, the difference is to delete the
  *        duplicates
@@ -23,7 +22,6 @@ import java.util.Set;
 public class LeetCode_047_Permutations_II {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 1, 1, 2 };
 		List<List<Integer>> list = permuteUnique(nums);
 		for (List<Integer> l : list) {
@@ -31,7 +29,7 @@ public class LeetCode_047_Permutations_II {
 		}
 	}
 
-	public static List<List<Integer>> permuteUnique(int[] nums) {
+	private static List<List<Integer>> permuteUnique(int[] nums) {
 		List<List<Integer>> lList = new ArrayList<List<Integer>>();
 		if (nums == null || nums.length == 0)
 			return lList;

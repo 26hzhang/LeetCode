@@ -19,7 +19,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_221_Maximal_Square {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		char[][] matrix = { { '1', '0', '1', '0', '0' }, { '1', '0', '1', '1', '1' }, { '1', '1', '1', '1', '1' }, { '1', '0', '0', '1', '0' } };
 		//char[][] matrix1 = {};
 		System.out.println(maximalSquare(matrix));

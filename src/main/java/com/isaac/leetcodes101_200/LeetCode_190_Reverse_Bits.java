@@ -20,7 +20,6 @@ package com.isaac.leetcodes101_200;
 public class LeetCode_190_Reverse_Bits {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

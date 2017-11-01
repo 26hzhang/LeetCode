@@ -21,7 +21,6 @@ package com.isaac.leetcodes101_200;
 public class LeetCode_198_House_Robber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

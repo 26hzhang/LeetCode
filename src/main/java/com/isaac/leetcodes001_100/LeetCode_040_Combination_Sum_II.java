@@ -29,7 +29,6 @@ import java.util.List;
 public class LeetCode_040_Combination_Sum_II {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] candidates = { 10, 1, 2, 7, 6, 1, 5 };
 		int target = 8;
 		List<List<Integer>> list = combination(candidates, target);
@@ -38,10 +37,10 @@ public class LeetCode_040_Combination_Sum_II {
 		}
 	}
 
-	public static List<List<Integer>> combination(int[] candidates, int target) {
-		List<List<Integer>> lList = new ArrayList<List<Integer>>();
+	private static List<List<Integer>> combination(int[] candidates, int target) {
+		List<List<Integer>> lList = new ArrayList<>();
 		Arrays.sort(candidates);
-		recursion(lList, candidates, target, 0, new ArrayList<Integer>());
+		recursion(lList, candidates, target, 0, new ArrayList<>());
 		return lList;
 	}
 
@@ -49,7 +48,7 @@ public class LeetCode_040_Combination_Sum_II {
 		if (target < 0)
 			return;
 		if (target == 0 && !lList.contains(list)) {
-			lList.add(new ArrayList<Integer>(list));
+			lList.add(new ArrayList<>(list));
 			return;
 		}
 		for (int i = start; i < candidates.length; i++) {

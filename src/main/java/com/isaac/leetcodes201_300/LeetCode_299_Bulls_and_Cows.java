@@ -38,7 +38,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_299_Bulls_and_Cows {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

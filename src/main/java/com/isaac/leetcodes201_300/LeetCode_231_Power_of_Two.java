@@ -13,7 +13,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_231_Power_of_Two {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

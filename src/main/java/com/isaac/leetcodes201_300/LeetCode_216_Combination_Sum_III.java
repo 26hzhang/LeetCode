@@ -32,7 +32,6 @@ import java.util.List;
 public class LeetCode_216_Combination_Sum_III {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int k = 3;
 		int n = 9;
 		List<List<Integer>> list = combinationSum3(k, n);

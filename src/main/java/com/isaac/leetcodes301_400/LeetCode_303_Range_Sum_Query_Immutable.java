@@ -25,12 +25,11 @@ package com.isaac.leetcodes301_400;
 public class LeetCode_303_Range_Sum_Query_Immutable {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
-	int[] nums;
-	int[] sums;
+	private int[] nums;
+	private int[] sums;
 
 	//public NumArray(int[] nums)
 	public LeetCode_303_Range_Sum_Query_Immutable(int[] nums) {
@@ -43,7 +42,7 @@ public class LeetCode_303_Range_Sum_Query_Immutable {
 		return sums[j] - sums[i] + nums[i];
 	}
 
-	public void computeSum(int[] nums) {
+	private void computeSum(int[] nums) {
 		for (int i = 0; i < nums.length; i++) {
 			sums[i] = i == 0 ? nums[i] : nums[i] + sums[i - 1];
 		}

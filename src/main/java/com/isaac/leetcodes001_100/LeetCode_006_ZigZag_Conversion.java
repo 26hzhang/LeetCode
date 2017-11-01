@@ -16,29 +16,27 @@ package com.isaac.leetcodes001_100;
  * convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  */
 public class LeetCode_006_ZigZag_Conversion {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "PAYPALISHIRING";
 		int numRows = 3;
 		System.out.println(convert(str, numRows));
 	}
 
-	public static String convert(String s, int numRows) {
+	private static String convert(String s, int numRows) {
 		if (s.length() <= numRows || numRows == 1)
 			return s;
-		String str = "";
+		StringBuilder str = new StringBuilder();
 		int n = 1;
 		while (n <= numRows) {
 			int i = n - 1;
 			if (n == 1 || n == numRows) {
 				int step = 2 * numRows - 2;
 				while (i < s.length()) {
-					str = str + s.charAt(i);
+					str.append(s.charAt(i));
 					i += step;
 				}
 			} else {
@@ -46,7 +44,7 @@ public class LeetCode_006_ZigZag_Conversion {
 				int step2 = 2 * (n - 1);
 				int count = 0;
 				while (i < s.length()) {
-					str = str + s.charAt(i);
+					str.append(s.charAt(i));
 					if (count == 0) {
 						i += step1;
 						count = 1;
@@ -58,7 +56,7 @@ public class LeetCode_006_ZigZag_Conversion {
 			}
 			n++;
 		}
-		return str;
+		return str.toString();
 	}
 
 }

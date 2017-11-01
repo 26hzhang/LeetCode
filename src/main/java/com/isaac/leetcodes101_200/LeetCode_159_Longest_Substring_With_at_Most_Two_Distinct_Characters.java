@@ -5,7 +5,6 @@ import java.util.Set;
 
 public class LeetCode_159_Longest_Substring_With_at_Most_Two_Distinct_Characters {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "gggggggccccvdvdddddffff";
 		int k = 2;
 		String substr = longestSubstring(str, k);

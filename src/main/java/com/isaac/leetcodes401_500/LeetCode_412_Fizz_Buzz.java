@@ -6,14 +6,13 @@ import java.util.List;
 public class LeetCode_412_Fizz_Buzz {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 15;
 		List<String> list = fizzBuzz(n);
 		for (String s : list)
 			System.out.println(s);
 	}
 
-	public static List<String> fizzBuzz(int n) {
+	private static List<String> fizzBuzz(int n) {
 		List<String> list = new ArrayList<String>();
 		for (int i = 1, fizz = 0, buzz = 0; i <= n; i++) {
 			fizz++;

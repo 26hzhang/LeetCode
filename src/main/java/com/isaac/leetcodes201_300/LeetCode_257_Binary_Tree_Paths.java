@@ -28,7 +28,6 @@ import java.util.List;
 public class LeetCode_257_Binary_Tree_Paths {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

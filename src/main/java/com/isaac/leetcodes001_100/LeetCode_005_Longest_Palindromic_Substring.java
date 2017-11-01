@@ -10,7 +10,7 @@ public class LeetCode_005_Longest_Palindromic_Substring {
         System.out.println(longestPalindrome(str));
     }
 
-    public static String longestPalindrome(String s) {
+    private static String longestPalindrome(String s) {
         if (s == null || s.isEmpty())
             return null;
         if (s.length() == 1)
@@ -27,7 +27,7 @@ public class LeetCode_005_Longest_Palindromic_Substring {
         return global;
     }
 
-    public static String curLongest (String str, int start, int end) {
+    private static String curLongest(String str, int start, int end) {
         while (start >= 0 && end <= str.length() - 1 && str.charAt(start) == str.charAt(end)) {
             start--;
             end++;

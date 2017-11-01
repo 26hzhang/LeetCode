@@ -40,7 +40,6 @@ package com.isaac.leetcodes301_400;
 public class LeetCode_338_Counting_Bits {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

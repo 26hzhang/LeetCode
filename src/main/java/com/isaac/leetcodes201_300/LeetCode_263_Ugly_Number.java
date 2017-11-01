@@ -15,7 +15,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_263_Ugly_Number {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

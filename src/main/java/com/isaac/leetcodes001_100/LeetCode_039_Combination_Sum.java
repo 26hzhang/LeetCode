@@ -20,7 +20,6 @@ import java.util.List;
  * [2, 2, 3]
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: 回溯问题。利用DFS思想，每层递归中都遍历candidates中的每个元素，
  *        如果满足candidates[i] + sum <= target，则令sum+=candidates[i]，
@@ -37,16 +36,16 @@ public class LeetCode_039_Combination_Sum {
 		}
 	}
 
-	public static List<List<Integer>> combinationSum(int[] candidates, int target) {
-		List<List<Integer>> lList = new ArrayList<List<Integer>>();
+	private static List<List<Integer>> combinationSum(int[] candidates, int target) {
+		List<List<Integer>> lList = new ArrayList<>();
 		Arrays.sort(candidates);
-		recursion(lList, candidates, target, 0, 0, new ArrayList<Integer>());
+		recursion(lList, candidates, target, 0, 0, new ArrayList<>());
 		return lList;
 	}
 
 	public static void recursion(List<List<Integer>> lList, int[] candidates, int target, int sum, int start, List<Integer> list) {
 		if (sum == target) {
-			lList.add(new ArrayList<Integer>(list));
+			lList.add(new ArrayList<>(list));
 			return;
 		}
 		for (int i = start; i < candidates.length; i++) {

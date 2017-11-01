@@ -2,14 +2,14 @@ package com.isaac.otherAlgorithms;
 
 public class FindMaxLengthOfTwoNodes {
 	//  二叉树中节点的最大距离
-	static int maxLength = 0;
+	private static int maxLength = 0;
 
 	public static void main(String[] args) {
 
 	}
 
 	// 无返回值
-	public static void getMaxLength(TNode root) {
+	private static void getMaxLength(TNode root) {
 		if (root == null)
 			return;
 		if (root.left != null) {
@@ -24,7 +24,7 @@ public class FindMaxLengthOfTwoNodes {
 	}
 
 	// 有返回值
-	public static int getMaxLen(TNode root) {
+	private static int getMaxLen(TNode root) {
 		if (root == null)
 			return 0;
 		if (root.left != null) {
@@ -41,11 +41,11 @@ public class FindMaxLengthOfTwoNodes {
 			maxLength = root.maxLeftLength + root.maxRightLength;
 		return Math.max(root.maxLeftLength, root.maxRightLength);
 	}
-}
 
-class TNode {
-	int maxRightLength = 0;
-	int maxLeftLength = 0;
-	TNode left;
-	TNode right;
+	class TNode {
+		int maxRightLength = 0;
+		int maxLeftLength = 0;
+		TNode left;
+		TNode right;
+	}
 }

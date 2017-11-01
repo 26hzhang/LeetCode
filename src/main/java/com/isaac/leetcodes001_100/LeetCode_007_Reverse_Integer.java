@@ -22,7 +22,6 @@ package com.isaac.leetcodes001_100;
  * Tags: Math.
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: 考虑数据溢出的问题，对于溢出，返回0
  *
@@ -30,17 +29,16 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_007_Reverse_Integer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 123;
 		System.out.println(reverse(n));
 	}
 
-	public static int reverse(int x) {
+	private static int reverse(int x) {
 		if (x == 0)
 			return 0;
 		long rev = 0;
 		String s = Integer.toString(x);
-		String str = "";
+		String str;
 		String operator = "";
 		if (s.charAt(0) == '-') {
 			str = s.substring(1);

@@ -4,7 +4,6 @@ import com.isaac.nodes.ListNode;
 
 public class LeetCode_061_Rotate_List {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

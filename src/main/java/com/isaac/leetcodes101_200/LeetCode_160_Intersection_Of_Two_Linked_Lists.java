@@ -4,7 +4,6 @@ import com.isaac.nodes.ListNode;
 
 public class LeetCode_160_Intersection_Of_Two_Linked_Lists {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

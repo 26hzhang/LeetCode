@@ -21,7 +21,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_035_Search_Insert_Position {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

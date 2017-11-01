@@ -8,7 +8,6 @@ import java.util.Stack;
 
 public class LeetCode_145_Binary_Tree_Postorder_Traversal {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

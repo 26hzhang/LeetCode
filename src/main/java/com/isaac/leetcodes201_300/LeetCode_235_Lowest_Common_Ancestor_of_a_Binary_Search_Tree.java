@@ -4,7 +4,6 @@ import com.isaac.nodes.TreeNode;
 
 public class LeetCode_235_Lowest_Common_Ancestor_of_a_Binary_Search_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -23,7 +23,6 @@ import java.util.List;
  * ]
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: 注意解决元素重复问题
  *
@@ -31,7 +30,6 @@ import java.util.List;
 public class LeetCode_090_Subsets_II {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 1, 2, 2 };
 		List<List<Integer>> list = subsetsWithDup(nums);
 		for (List<Integer> l : list) {
@@ -39,7 +37,7 @@ public class LeetCode_090_Subsets_II {
 		}
 	}
 
-	public static List<List<Integer>> subsetsWithDup(int[] nums) {
+	private static List<List<Integer>> subsetsWithDup(int[] nums) {
 		List<List<Integer>> list = new ArrayList<List<Integer>>();
 		if (nums == null || nums.length == 0)
 			return list;

@@ -8,7 +8,6 @@ public class LeetCode_230_Kth_Smallest_Element_in_a_BST {
 	// Given a binary search tree, 
 	// write a function kthSmallest to find the kth smallest element in it.
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

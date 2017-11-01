@@ -39,23 +39,22 @@ import com.isaac.nodes.TreeNode;
 public class LeetCode_337_House_Robber_III {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
-	public static int rob(TreeNode root) {
+	private static int rob(TreeNode root) {
 		if (root == null)
 			return 0;
 		return Math.max(hasRoot(root), noRoot(root));
 	}
 
-	public static int noRoot(TreeNode root) {
+	private static int noRoot(TreeNode root) {
 		if (root == null)
 			return 0;
 		return rob(root.left) + rob(root.right);
 	}
 
-	public static int hasRoot(TreeNode root) {
+	private static int hasRoot(TreeNode root) {
 		if (root == null)
 			return 0;
 		return noRoot(root.left) + noRoot(root.right) + root.val;

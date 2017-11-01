@@ -21,7 +21,7 @@ public class LeetCode_002_Add_Two_Numbers {
         }
     }
 
-    public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
+    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int carry = 0;
         ListNode head = new ListNode(carry);
         ListNode index = head;

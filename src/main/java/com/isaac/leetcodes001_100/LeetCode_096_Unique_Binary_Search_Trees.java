@@ -21,7 +21,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_096_Unique_Binary_Search_Trees {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

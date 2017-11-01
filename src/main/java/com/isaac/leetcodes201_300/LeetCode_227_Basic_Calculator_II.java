@@ -3,7 +3,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_227_Basic_Calculator_II {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String s = "3 + 2 * 2 ";
 		System.out.println(compute(s));
 	}

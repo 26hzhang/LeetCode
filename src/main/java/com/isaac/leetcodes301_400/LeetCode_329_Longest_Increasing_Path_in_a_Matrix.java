@@ -48,7 +48,6 @@ public class LeetCode_329_Longest_Increasing_Path_in_a_Matrix {
 	private static int curPath = -1;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		System.out.println(longestIncreasingPath(matrix));
 		System.out.println(Integer.MIN_VALUE);
@@ -76,7 +75,7 @@ public class LeetCode_329_Longest_Increasing_Path_in_a_Matrix {
 		}
 	}
 
-	public static int longestIncreasingPath(int[][] matrix) {
+	private static int longestIncreasingPath(int[][] matrix) {
 		if (matrix == null || matrix.length < 1 || matrix[0].length < 1)
 			return 0;
 		int ans = 0;
@@ -90,7 +89,7 @@ public class LeetCode_329_Longest_Increasing_Path_in_a_Matrix {
 		return ans;
 	}
 
-	public static int dfs(int[][] matrix, int min, int i, int j, int row, int column, int[][] mark) {
+	private static int dfs(int[][] matrix, int min, int i, int j, int row, int column, int[][] mark) {
 		if (i < 0 || j < 0 || i >= row || j >= column)
 			return 0;
 		if (matrix[i][j] <= min)
@@ -107,7 +106,7 @@ public class LeetCode_329_Longest_Increasing_Path_in_a_Matrix {
 		return max;
 	}
 
-	public static int[] dfsForPath(int x, int y) {
+	private static int[] dfsForPath(int x, int y) {
 		// if the value of map[x][y] less than maxPath,
 		// it means that its maxPath also less than the current maxPath,
 		// so do not search this point

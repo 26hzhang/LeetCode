@@ -24,7 +24,7 @@ public class LeetCode_371_Sum_of_Two_Integers {
 	 * 输出两个数的异或值。
 	 *
 	 */
-	public int getSum(int a, int b) {
+	private int getSum(int a, int b) {
 		if (a == 0 || b == 0)
 			return a == 0 ? b : a;
 		int sum = 0;

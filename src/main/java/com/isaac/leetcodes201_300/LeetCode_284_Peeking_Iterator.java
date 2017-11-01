@@ -27,46 +27,42 @@ import java.util.Queue;
  *
  * Tags: Design.
  *
- * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
+ * @author ZHANG HAO (isaac.changhau@gmail.com)
  *
  *        Explain: 利用queue保存iterator指向的数据，queue中包含peek()，poll()，offer()等方法。
  */
 public class LeetCode_284_Peeking_Iterator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
-}
+	class PeekingIterator implements Iterator<Integer> {
 
-class PeekingIterator implements Iterator<Integer> {
+		Queue<Integer> queue = new LinkedList<Integer>();
 
-	Queue<Integer> queue = new LinkedList<Integer>();
-
-	public PeekingIterator(Iterator<Integer> iterator) {
-		// initialize any member here.
-		while (iterator.hasNext()) {
-			queue.offer((Integer) iterator.next());
+		public PeekingIterator(Iterator<Integer> iterator) {
+			// initialize any member here.
+			while (iterator.hasNext()) {
+				queue.offer((Integer) iterator.next());
+			}
 		}
-	}
 
-	// Returns the next element in the iteration without advancing the iterator.
-	public Integer peek() {
+		// Returns the next element in the iteration without advancing the iterator.
+		public Integer peek() {
 
-		return queue.peek();
-	}
+			return queue.peek();
+		}
 
-	// hasNext() and next() should behave the same as in the Iterator interface.
-	public boolean hasNext() {
-		// TODO Auto-generated method stub
-		return !queue.isEmpty();
-	}
+		// hasNext() and next() should behave the same as in the Iterator interface.
+		public boolean hasNext() {
+			return !queue.isEmpty();
+		}
 
-	public Integer next() {
-		// TODO Auto-generated method stub
-		return queue.poll();
+		public Integer next() {
+			return queue.poll();
+		}
+
 	}
 
 }

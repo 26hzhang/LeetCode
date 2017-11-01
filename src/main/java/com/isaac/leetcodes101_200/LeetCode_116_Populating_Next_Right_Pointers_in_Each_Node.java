@@ -10,7 +10,6 @@ public class LeetCode_116_Populating_Next_Right_Pointers_in_Each_Node {
 	// Populate each next pointer to point to its next right node. 
 	// If there is no next right node, the next pointer should be set to NULL.
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

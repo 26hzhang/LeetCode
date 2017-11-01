@@ -34,12 +34,11 @@ package com.isaac.leetcodes301_400;
 public class LeetCode_318_Maximum_Product_of_Word_Lengths {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String[] words = { "abcw", "baz", "foo", "bar", "xtfn", "abcdef" };
 		System.out.println(maxProduct(words));
 	}
 
-	public static int maxProduct(String[] words) {
+	private static int maxProduct(String[] words) {
 		int products = 0;
 		int[] binaryIndex = new int[words.length];
 		for (int i = 0; i < words.length; i++) {

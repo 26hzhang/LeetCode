@@ -24,34 +24,33 @@ import java.util.Stack;
 public class LeetCode_173_Binary_Search_Tree_Iterator {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
-}
+	class BSTIterator {
+		Stack<TreeNode> stack = new Stack<TreeNode>();
 
-class BSTIterator {
-	Stack<TreeNode> stack = new Stack<TreeNode>();
-
-	public BSTIterator(TreeNode root) {
-		while (root != null) {
-			stack.push(root);
-			root = root.left;
+		public BSTIterator(TreeNode root) {
+			while (root != null) {
+				stack.push(root);
+				root = root.left;
+			}
 		}
-	}
 
-	public boolean hasNext() {
-		return !stack.isEmpty();
-	}
-
-	public int next() {
-		TreeNode res = stack.pop();
-		TreeNode temp = res.right;
-		if (temp != null) {
-			stack.push(temp);
-			temp = temp.left;
+		public boolean hasNext() {
+			return !stack.isEmpty();
 		}
-		return res.val;
+
+		public int next() {
+			TreeNode res = stack.pop();
+			TreeNode temp = res.right;
+			if (temp != null) {
+				stack.push(temp);
+				temp = temp.left;
+			}
+			return res.val;
+		}
+
 	}
 
 }

@@ -19,7 +19,6 @@ import java.util.Arrays;
 public class LeetCode_169_Majority_Element {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

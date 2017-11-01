@@ -17,7 +17,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_066_Plus_One {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -35,8 +34,7 @@ public class LeetCode_066_Plus_One {
 			return digits;
 		else {
 			res[0] = 1;
-			for (int i = 0; i < digits.length; i++)
-				res[i + 1] = digits[i];
+			System.arraycopy(digits, 0, res, 1, digits.length);
 			return res;
 		}
 	}

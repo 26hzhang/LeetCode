@@ -2,7 +2,6 @@ package com.isaac.leetcodes101_200;
 
 public class LeetCode_189_Rotate_Array {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String str = "I am a Student!";
 		System.out.println(rotate(str));
 	}

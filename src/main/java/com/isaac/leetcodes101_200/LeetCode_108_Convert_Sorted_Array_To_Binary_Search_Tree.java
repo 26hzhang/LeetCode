@@ -6,7 +6,6 @@ import java.util.Arrays;
 
 public class LeetCode_108_Convert_Sorted_Array_To_Binary_Search_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

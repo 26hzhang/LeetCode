@@ -24,15 +24,11 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_292_Nim_Game {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
 	public boolean canWinNim(int n) {
-		if (n % 4 == 0)
-			return false;
-		else
-			return true;
+		return n % 4 != 0;
 	}
 
 }

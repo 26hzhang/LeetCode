@@ -9,7 +9,6 @@ import java.util.List;
 
 public class LeetCode_109_Convert_Sorted_List_To_Binary_Search_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

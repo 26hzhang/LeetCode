@@ -28,7 +28,6 @@ import java.util.List;
 public class LeetCode_118_Pascals_Triangle {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

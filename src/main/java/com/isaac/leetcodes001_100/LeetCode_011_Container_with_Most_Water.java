@@ -12,7 +12,6 @@ package com.isaac.leetcodes001_100;
  * Tags: Array, Two Pointers.
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain:
  *        大致题意为随意找2个木板构成木桶，容量最大，我之前以为是所有的木板已经在它的位置上了，
@@ -26,7 +25,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_011_Container_with_Most_Water {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

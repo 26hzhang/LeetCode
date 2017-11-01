@@ -26,12 +26,11 @@ package com.isaac.leetcodes301_400;
 public class LeetCode_343_Integer_Break {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 10;
 		System.out.println(integerBreak(n));
 	}
 
-	public static int integerBreak(int n) {
+	private static int integerBreak(int n) {
 		if (n <= 3)
 			return n - 1;
 		int count = 1;

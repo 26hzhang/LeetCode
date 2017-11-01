@@ -12,14 +12,13 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_085_Maximal_Rectangle {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//char[][] matrix = { { '1', '0', '1', '0', '0' }, { '1', '0', '1', '1', '1' }, { '1', '1', '1', '1', '1' }, { '1', '0', '0', '1', '0' } };
 		char[][] mat = { { '1', '0', '1', '0' }, { '1', '0', '1', '1' }, { '1', '0', '1', '1' }, { '1', '1', '1', '1' } };
 		System.out.println(maximalRectangle(mat));
 
 	}
 
-	public static int maximalRectangle(char[][] matrix) {
+	private static int maximalRectangle(char[][] matrix) {
 		if (matrix == null || matrix.length == 0)
 			return 0;
 		int m = matrix.length;

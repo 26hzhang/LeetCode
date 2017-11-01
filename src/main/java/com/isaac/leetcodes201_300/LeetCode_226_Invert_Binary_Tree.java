@@ -4,7 +4,6 @@ import com.isaac.nodes.TreeNode;
 
 public class LeetCode_226_Invert_Binary_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

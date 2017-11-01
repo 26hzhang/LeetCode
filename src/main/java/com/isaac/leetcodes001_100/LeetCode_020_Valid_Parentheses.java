@@ -25,7 +25,6 @@ import java.util.Stack;
 public class LeetCode_020_Valid_Parentheses {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -50,9 +49,7 @@ public class LeetCode_020_Valid_Parentheses {
 			}
 			i++;
 		}
-		if (!stack.isEmpty())
-			return false;
-		return true;
+		return stack.isEmpty();
 	}
 
 	// or using hashMap

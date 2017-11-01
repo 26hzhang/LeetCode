@@ -9,7 +9,6 @@ import java.util.Queue;
 
 public class LeetCode_102_Binary_Tree_Level_Order_Traversal {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

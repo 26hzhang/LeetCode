@@ -36,7 +36,6 @@ package com.isaac.leetcodes201_300;
  * https://en.wikipedia.org/wiki/Moore_neighborhood
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain: 注意边界条件，对于此问题使用绝对边界
  *
@@ -44,7 +43,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_289_Game_of_Life {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

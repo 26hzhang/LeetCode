@@ -4,7 +4,6 @@ public class LeetCode_062_Unique_Paths {
 	public static int res = 0;
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int m = 11;
 		int n = 11;
 		System.out.println(uniquePaths(m, n));

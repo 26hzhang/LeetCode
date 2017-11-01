@@ -27,7 +27,6 @@ import java.util.Map;
 public class LeetCode_290_Word_Pattern {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

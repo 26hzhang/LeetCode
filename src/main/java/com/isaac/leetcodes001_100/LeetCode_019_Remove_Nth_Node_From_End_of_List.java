@@ -4,7 +4,6 @@ import com.isaac.nodes.ListNode;
 
 public class LeetCode_019_Remove_Nth_Node_From_End_of_List {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

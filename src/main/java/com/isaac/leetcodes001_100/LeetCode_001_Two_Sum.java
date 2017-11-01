@@ -14,7 +14,7 @@ public class LeetCode_001_Two_Sum {
 		System.out.println(Arrays.toString(twoSum(nums, target)));
 	}
 
-	public static int[] twoSum(int[] nums, int target) {
+	private static int[] twoSum(int[] nums, int target) {
 		Map<Integer, Integer> map = new HashMap<Integer, Integer>();
 		int[] ans = new int[2];
 		for (int i = 0; i < nums.length; i++) {

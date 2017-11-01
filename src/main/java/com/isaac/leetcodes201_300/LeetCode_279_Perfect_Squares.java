@@ -10,7 +10,6 @@ package com.isaac.leetcodes201_300;
  * Tags: Dynamic Programming, Breath-first Search, Math.
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain:
  *        方法一是用递归，但是对此题来说会超时。方法二使用动态规划，创建长度为n+1的辅助数组，每个位置记录当前数字的最小表达的个数。
@@ -27,7 +26,6 @@ package com.isaac.leetcodes201_300;
 public class LeetCode_279_Perfect_Squares {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int n = 12;
 		System.out.println(numSquares(n));
 		System.out.println(numSquares2(n));

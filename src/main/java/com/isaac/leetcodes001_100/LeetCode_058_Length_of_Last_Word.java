@@ -23,7 +23,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_058_Length_of_Last_Word {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -17,7 +17,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_070_Climbing_Stairs {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

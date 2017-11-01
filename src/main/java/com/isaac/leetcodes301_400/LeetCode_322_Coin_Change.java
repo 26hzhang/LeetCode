@@ -21,8 +21,7 @@ import java.util.Arrays;
  *
  * Tags: Dynamic Programming
  *
- * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
+ * @author ZHANG HAO (isaac.changhau@gmail.com)
  *
  *        Explain: 构建一个count array，然后将给定的value位置赋值1，然后动态规划求解。
  *
@@ -30,13 +29,12 @@ import java.util.Arrays;
 public class LeetCode_322_Coin_Change {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] coins = { 1, 2, 5 };
 		int amount = 11;
 		System.out.println(coinChange(coins, amount));
 	}
 
-	public static int coinChange(int[] coins, int amount) {
+	private static int coinChange(int[] coins, int amount) {
 		if (amount == 0)
 			return 0;
 		if (coins.length == 0 || amount < 0)

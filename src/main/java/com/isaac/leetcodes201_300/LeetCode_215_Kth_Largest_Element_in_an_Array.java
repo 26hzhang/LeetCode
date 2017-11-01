@@ -2,7 +2,6 @@ package com.isaac.leetcodes201_300;
 
 public class LeetCode_215_Kth_Largest_Element_in_an_Array {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 3, 2, 1, 5, 6, 4 };
 		int k = 2;
 		System.out.println(findKthLargest(nums, k));

@@ -2,7 +2,6 @@ package com.isaac.leetcodes001_100;
 
 public class LeetCode_084_Largest_Rectangle_In_Histogram {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] heights = { 2, 1, 5, 6, 2, 3 };
 		System.out.println(largestRectangleArea(heights));
 	}
@@ -28,7 +27,7 @@ public class LeetCode_084_Largest_Rectangle_In_Histogram {
 	    }
 	    return max;
 	}*/
-	public static int largestRectangleArea(int[] heights) {
+	private static int largestRectangleArea(int[] heights) {
 		int length = heights.length;
 		if (heights == null || length == 0)
 			return 0;

@@ -14,7 +14,6 @@ import java.util.Arrays;
  * 2. Minimize the total number of operations.
  *
  * @author ZHANG HAO
- * @Email isaac.changhau@gmail.com
  *
  *        Explain:
  *        指针j指向末尾元素，指针i从后往前，遇到0就将0后面开始到指针j处的元素全部前移一位，然后指针j指向的位置赋值为0，指针j前移。
@@ -23,7 +22,6 @@ import java.util.Arrays;
 public class LeetCode_283_Move_Zeroes {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 0, 1, 0, 3, 12 };
 		System.out.println(Arrays.toString(moveZeroes(nums)));
 

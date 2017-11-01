@@ -7,7 +7,7 @@ public class LeetCode_463_Island_Perimeter {
 		System.out.println(new LeetCode_463_Island_Perimeter().islandPerimeter(grid));
 	}
 
-	public int islandPerimeter(int[][] grid) {
+	private int islandPerimeter(int[][] grid) {
 		int[] count = new int[1];
 		for (int i = 0; i < grid.length; i++) {
 			for (int j = 0; j < grid[0].length; j++) {
@@ -20,9 +20,10 @@ public class LeetCode_463_Island_Perimeter {
 		return count[0];
 	}
 
-	public void dfs(int[][] grid, int[] count, int i, int j) {
-		if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != 1)
+	private void dfs(int[][] grid, int[] count, int i, int j) {
+		if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] != 1) {
 			return;
+		}
 		grid[i][j] = -1; // mark the traversed location
 		if (j + 1 >= grid[0].length || grid[i][j + 1] == 0) // check right
 			count[0] += 1;
@@ -36,7 +37,6 @@ public class LeetCode_463_Island_Perimeter {
 		dfs(grid, count, i - 1, j);
 		dfs(grid, count, i, j - 1);
 		dfs(grid, count, i + 1, j);
-		return;
 	}
 
 }

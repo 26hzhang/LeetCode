@@ -31,7 +31,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_075_Sort_Colors {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
@@ -50,7 +49,7 @@ public class LeetCode_075_Sort_Colors {
 		}
 	}
 
-	public static void swap(int[] nums, int i, int j) {
+	private static void swap(int[] nums, int i, int j) {
 		int tmp = nums[i];
 		nums[i] = nums[j];
 		nums[j] = tmp;

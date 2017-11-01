@@ -4,7 +4,6 @@ import com.isaac.nodes.TreeNode;
 
 public class LeetCode_104_Maximum_Depth_of_Binary_Tree {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

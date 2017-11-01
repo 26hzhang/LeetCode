@@ -31,9 +31,9 @@ public class RightPointerForEachNode {
 			}
 		}
 	}
-}
 
-class Node {
-	public Node[] Children;
-	public Node Right;
+	class Node {
+		Node[] Children;
+		Node Right;
+	}
 }

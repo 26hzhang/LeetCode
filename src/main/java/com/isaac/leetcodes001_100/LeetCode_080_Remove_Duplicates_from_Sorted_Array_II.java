@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class LeetCode_080_Remove_Duplicates_from_Sorted_Array_II {
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] nums = { 1, 1, 1, 2, 2, 3, 3, 3, 4 };
 		System.out.println(remove(nums));
 	}

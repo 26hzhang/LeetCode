@@ -12,7 +12,7 @@ public class LeetCode_003_Longest_Substring_Without_Repeating_Characters {
 
 	}
 
-	public static String longestSubstring(String str) {
+	private static String longestSubstring(String str) {
 		if (str == null)
 			return null;
 		if (str.length() <= 1)

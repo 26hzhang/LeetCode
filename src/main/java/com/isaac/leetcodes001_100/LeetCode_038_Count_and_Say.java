@@ -22,7 +22,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_038_Count_and_Say {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

@@ -14,7 +14,6 @@ package com.isaac.leetcodes001_100;
 public class LeetCode_014_Longest_Common_Prefix {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 
